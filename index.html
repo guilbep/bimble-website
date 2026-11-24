@@ -26,8 +26,8 @@ a{color:inherit}
 .on-ink :focus-visible{outline-color:var(--cream)}
 .eyebrow{font:400 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase}
 
-/* the grid: flush panels, 1px ink rules, as on the sketch */
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--ink)}
+/* the grid: flush panels, no rules between them */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;background:var(--ink)}
 .panel{position:relative;padding:var(--pad);min-width:0;scroll-margin-top:56px}
 .cream{background:var(--cream)}.sheet{background:var(--sheet)}.sunk{background:var(--sunk)}
 .on-ink{background:var(--ink);color:var(--cream)}
